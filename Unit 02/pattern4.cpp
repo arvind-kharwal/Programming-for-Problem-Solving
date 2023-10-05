@@ -2,12 +2,12 @@
 int main()
 {
     int i,j,k;
-    for(i=5;i>=1;i--)
+    for(i=65;i<=69;i++)
     {
-        for(j=1;j<i-1;j++)
+        for(j=1;j<=69-i;j++)
             printf(" ");
-        for(k=5;k>=i;k--)
-            printf("%d",k);
+        for(k=65;k<=i;k++)
+            printf("%c",k);
         printf("\n");
     }          
     return(0);

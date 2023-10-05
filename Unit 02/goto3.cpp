@@ -8,7 +8,6 @@ int main()
 		goto even;
 	else
         goto odd;
-
 even:
 	printf("%d is even",n);
     return 0;

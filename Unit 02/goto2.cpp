@@ -10,7 +10,6 @@ int main()
         goto other;
     next:
         printf("Hello");
-
     other: 
         printf("World");
 }
