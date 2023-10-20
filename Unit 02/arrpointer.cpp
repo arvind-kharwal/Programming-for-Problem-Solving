@@ -7,6 +7,7 @@ int main( )
     arr[1] = &b ; 
     arr[2] = &c ;
     arr[3] = &d ;
+    printf ("The address of array arr: %u \n",arr); 
     for ( i = 0 ; i <4 ; i++ ) 
       printf ( "%d ", *(arr[i] ) ); 
 }
