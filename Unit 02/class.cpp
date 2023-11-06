@@ -9,7 +9,7 @@ int main()
     for(i=0;i<5;i++)
         printf("%d\t",a[i]);
     for(i=0;i<5;i++)
-        b[i] =a[i];
+        b[i] =a[4-i];
     printf("\nThe elements in array b: ");
     for(i=0;i<5;i++)
         printf("%d\t",b[i]);
