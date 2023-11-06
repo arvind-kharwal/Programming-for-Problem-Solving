@@ -12,6 +12,7 @@ int main()
         s2[i] = s1[i];
         i++;
     }
+    s2[i] = '\0';
     printf("\nThe string is S2 is %s",s2);
     return(0);
 }
