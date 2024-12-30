@@ -3,8 +3,8 @@ int main()
 {
     FILE *fp;
     char ch;
-    int noc,nol,nos;
-    noc = nol = nos =0;
+    int noc,nol,nos,nott;
+    noc = nol = nos =  nott =0;
     fp = fopen("file1.txt","r");
     while(1)
     {
@@ -16,7 +16,9 @@ int main()
             nos++;
         if(ch=='\n')
             nol++;
+        if(ch=='\t')
+            nott++;
     }
-    printf("\n%d\n%d\n%d",noc,nol,nos);
+    printf("\n%d\n%d\n%d\n%d",noc,nol,nos,nott);
     fclose(fp);
 }
