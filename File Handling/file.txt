@@ -1,0 +1,17 @@
+File Operations
+===========================
+1. Creation of the new file
+2. Opening an existing file
+3. Reading from the file
+4. Writing to the file
+5. Deleting the file
+
+
+Functions for file handling
+=============================
+1. fopen() - opens new or existing file
+2. fclose() - closes the file
+3. fgetc() - reads a character from file
+4. fscanf() -  reads data from the file
+5. fputc() - writes a character into the file
+6. fprintf() -  write data into the file
