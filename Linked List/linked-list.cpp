@@ -5,11 +5,12 @@ struct node
     int data;
     struct node *link;
 };
+struct node * head = NULL; // it used to hold the address of first node
 struct node * createlist(int);
 void display(struct node *);
 int main()
 {
-    struct node * head = NULL;
+    
     int n;
     printf("Enter the number of nodes: ");
     scanf("%d",&n);
@@ -21,9 +22,8 @@ int main()
 struct node * createlist(int n)
 {
     int i = 0;
-    struct node *head = NULL;
-    struct node *temp = NULL;
-    struct node * ptr = NULL;
+    struct node *temp = NULL; // it is used to create individual nodes 
+    struct node * ptr = NULL; // it is used to iterate the list to add the node at correct position
     for(i=0;i<n;i++)
     {
         temp = (struct node *)malloc(sizeof(struct node));
@@ -56,5 +56,3 @@ void display(struct node *head)
         ptr = ptr->link;
     }
 }
-
-//This is code
