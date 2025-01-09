@@ -44,3 +44,13 @@ struct node *createlist(int n)
     }
     return head;
 }
+void display(struct node *head)
+{
+    struct node * ptr = NULL;
+    ptr = head;
+    while(ptr!=NULL)
+    {
+        printf("%d\t",ptr->data);
+        ptr = ptr->link;
+    }
+}
