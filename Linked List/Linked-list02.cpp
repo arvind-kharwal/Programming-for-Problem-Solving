@@ -10,7 +10,7 @@ void display(struct node *);
 struct node *head = NULL;
 int main()
 {
-    int i,n;
+    int n;
     printf("Enter the number of nodes:");
     scanf("%d",&n);
     head = createlist(n);
