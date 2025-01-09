@@ -9,6 +9,5 @@ int main()
 {
     Data D;
     D = a;
-    D = b;
     printf("%d\n", D);
 }
